@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Mood</h2>
+        <select name="" id="user-mood" >
+            <option value="" selected >Select your mood</option>
+            <option value="happy">😃 Happy</option>
+            <option value="Sad">😔 Sad</option>
+            <option value="Neutral">😐 Neutral</option>
+            <option value="Exicited">😍 Exicited</option>
+            <option value="Lovely">🤗 Lovely</option>
+        </select>
+      
+    </div>
+    <div id="display-mood" class="moodsContainer"></div>
+   
+    <div class="container">
+    
+    <select name="" id="moodDays" >
+        <option value="" selected>Check your moods</option>
+        <option value="today">today</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+        
+    </select>
+ 
+    
+    </div>
+    <div class="clearStorageBtn-wrapper">
+
+        <button id="clearMoods">Clear Moods</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

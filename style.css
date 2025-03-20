@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+   
+}
+#user-mood{
+    padding: 12px 10px;
+    margin: 10px;
+}
+.moodsContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.moodsContainer p{
+  margin: 4px 2px;
+  
+ 
+    background-color: yellow;
+    padding: 10px 20px;
+
+}
+.moodsContainer h1{
+    
+ width: 320px ;
+ margin: 10px auto;
+
+ text-align: center;
+
+}
+#clearMoods{
+    background-color: rgb(255, 4, 0);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.clearStorageBtn-wrapper{
+    width: 10%;
+    margin: auto;
+}
+
+#moodDays{  padding: 12px 10px;
+    margin: 10px;
+}
+
